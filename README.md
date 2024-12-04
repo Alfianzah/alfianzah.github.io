@@ -1,1 +1,1 @@
-# Alfianzah.github.io
+git clone https://github.com/Alfianzah/Alfianzah.github.io
