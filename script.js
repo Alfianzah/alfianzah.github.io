@@ -10,10 +10,13 @@ mobileMenu.addEventListener('click', () => {
 // Smooth scrolling for navigation links
 const links = document.querySelectorAll('.nav-links a');
 
+// Remove the event listener for the button
 document.querySelector('.btn').addEventListener('click', function(event) {
-    event.preventDefault(); // Prevent the default anchor behavior
+    // Remove the preventDefault line
+    // event.preventDefault(); // This line should be removed
 });
 
+// Smooth scrolling for navigation links
 links.forEach(link => {
     link.addEventListener('click', (e) => {
         e.preventDefault(); // Prevent default anchor click behavior
